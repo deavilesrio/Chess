@@ -1,0 +1,3 @@
+Pawn White H 2 
+Knight White H 1 
+Bishop White F 1 
