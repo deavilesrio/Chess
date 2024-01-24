@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 public class Main_chess {
     public static void main(String[] arg) throws FileNotFoundException {
         // Reads the file
-        File file = new File("C:\\Users\\diego\\OneDrive\\Desktop\\CS Lab\\Adv Obj\\chess.txt");
+        File file = new File("C:\\Users\\diego\\OneDrive\\Desktop\\CS Lab\\Adv_Obj\\chess.txt");
         Scanner fileReader = new Scanner(file);
         String pieceName;
         String pieceColor;
@@ -16,7 +16,7 @@ public class Main_chess {
         int[][] board = new int[8][8];
 
         int[] next_move = { 0, 0 };
-
+        System.out.println("Prueba");
         Dictionary<String, Integer> dict = new Hashtable<>();
         dict.put("A", 1);
         dict.put("B", 2);
